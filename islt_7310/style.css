@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 
-<html>
+<title>stylesheet</title>
 
-<head>
-    
-   <meta charset="utf-8">
-
-    <title>External Style Sheet</title>
-
-</head>
-
-<body>
-        
-<h1> {
-    color: #OOFFOO;
-}
+<h1> 
+{color: #ff0000;}        
+        <a> href=" http://websafecolors.info/color-chart/">Color Style Website</a>.  
 </h1>
-        
-        <a> href=" http://websafecolors.info/color-chart/">Color Style Website</a>.
-            
-</body>
-        
-</html>
+
+(/html)
