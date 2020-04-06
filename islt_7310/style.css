@@ -1,9 +1,65 @@
 /* myStyle.css */
 h1 {
+    font-family: arial, "Times New Roman";
+    font-size: 40px;
+    font-style: italic;
+    font-weight:200;
+    text-align:center;
     color: #333399;
     }
+img {
+    float:left
+}
+h3 {
+    font-family: arial, "Times New Roman";
+    font-size: 36px;
+    font-style:normal;
+    font-weight:100;
+    text-align:left;
+    color: green;
+    }
+p {
+    font-family: arial, "Times New Roman";
+    font-size: 30px;
+    font-style:normal;
+    font-weight:100;
+    text-align:left;
+    color: black;
+    }
+h4 {
+    font-family: arial, "Times New Roman";
+    font-size: 36px;
+    font-style:normal;
+    font-weight:100;
+    text-align:left;
+    color: green;
+    }
+h5 {
+    font-family: arial, "Times New Roman";
+    font-size: 36px;
+    font-style:normal;
+    font-weight:100;
+    text-align:left;
+    color: green;
+    }
+li {
+    font-family: arial, "Times New Roman";
+    font-size: 30px;
+    font-style:normal;
+    font-weight:100;
+    text-align:left;
+    color: black;
+    }
+h6 {
+    font-family: arial, "Times New Roman";
+    font-size: 36px;
+    font-style:normal;
+    font-weight:100;
+    text-align:left;
+    color: green;
+    }
 footer {
-    font-size: 20px;
+    font-size: 24px;
 }
 link {
     color: green 
