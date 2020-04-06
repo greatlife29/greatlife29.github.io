@@ -52,15 +52,17 @@ h5 {
     text-align:left;
     color: green;
     }
-ul class ="brown"></ul>
 li {
     font-family: arial, "Times New Roman";
     font-size: 30px;
     font-style:normal;
     font-weight:100;
     text-align:left;
-    color: black;
+    color: red;
     }
+ul li: {
+    color:darkorange
+}
 h6 {
     font-family: arial, "Times New Roman";
     font-size: 36px;
@@ -69,7 +71,10 @@ h6 {
     text-align:left;
     color: green;
     }
-ol class ="orange"></ol>
+ol li: {
+    color:firebrick
+        
+}  
 footer {
     font-size: 24px;
     font-style:italic
