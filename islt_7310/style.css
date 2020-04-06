@@ -2,13 +2,12 @@
 h1 {
     color: #333399;
     }
-.footer {
-    ...
-    font-size: 14px;
+#footer {
+    height: 20px;
 }
-.link {
+#link {
     color: green 
 
 (a {text-decoration: none;})
-    font size: 10px;
+    height: 18px;
     
