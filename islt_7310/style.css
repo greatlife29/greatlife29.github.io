@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-
-<title>stylesheet</title>
-
-<h1> 
-{color: #ff0000;}        
-        <a> href=" http://websafecolors.info/color-chart/">Color Style Website</a>.  
-</h1>
-
-(/html)
+/* myStyle.css */
+h1 {
+    color: #333399;
+    }
