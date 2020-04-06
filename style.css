@@ -1,21 +1,13 @@
-<!DOCTYPE html>
+/* myStyle.css */
+h1 {
+    color: #333399;
+    }
+footer {
+    font-size: 24px;
+}
+link {
+    color: green 
 
-<html>
-
-<head>
+(a {text-decoration: none;})
+    font-size: 10px;
     
-   <meta charset="utf-8">
-
-    <title>External Style Sheet</title>
-
-</head>
-
-<body>
-        
-        <h1 style="color: #003399;"></h1>
-        
-        <a> href=" http://https://websafecolors.info/color-chart/">Color Style Website</a>.
-            
-</body>
-        
-</html>
