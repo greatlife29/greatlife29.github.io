@@ -1,91 +1,102 @@
 /* myStyle.css */
-{
+body {
     background-color: antiquewhite
         border-color: #ccc
 }
-{
+body {
     background-color: antiquewhite
-        border-color:#bbb
+        border-color: #bbb
 }
 h1 {
     font-family: arial, "Times New Roman";
-    text-shadow: 4px 4 px;
+    text-shadow: 4px 4px;
     font-size: 40px;
     font-style: italic;
-    font-weight:200;
-    text-align:center;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 5px #333;
     color: #333399;
     }
 img {
-    float:right
+    float: right;
 }
 h3 {
     font-family: arial, "Times New Roman";
     font-size: 36px;
-    font-style:normal;
-    font-weight:100;
-    text-align:left;
+    font-style: normal;
+    font-weight: 100;
+    text-align: left;
     color: green;
     }
 p {
     font-family: arial, "Times New Roman";
+    line-height: 1.5em
     font-size: 30px;
-    font-style:normal;
-    font-weight:100;
-    text-align:left;
+    font-style: normal;
+    font-weight: 100;
+    text-align: left;
     color: black;
-    clear:left
+    clear: left;
     }
+ul {
+    list-style-type: square;
+}
 h4 {
     font-family: arial, "Times New Roman";
     font-size: 36px;
-    font-style:normal;
-    font-weight:100;
-    text-align:left;
+    font-style: normal;
+    font-weight: 100;
+    text-align: left;
     color: green;
     }
+li {UnitedHealthcare-Instructional Designer
+    color: brown;
+}
+li {RSG-Business Owner
+    color: rust;
+}
 h5 {
     font-family: arial, "Times New Roman";
     font-size: 36px;
-    font-style:normal;
-    font-weight:100;
-    text-align:left;
+    font-style: normal;
+    font-weight: 100;
+    text-align: left;
     color: green;
     }
 li {
     font-family: arial, "Times New Roman";
     font-size: 30px;
-    font-style:normal;
-    font-weight:100;
-    text-align:left;
+    font-style: normal;
+    font-weight: 100;
+    text-align: left;
     color: red;
     }
 ul li: {
-    color:darkorange
+    color:brown
 }
 h6 {
     font-family: arial, "Times New Roman";
     font-size: 36px;
-    font-style:normal;
-    font-weight:100;
-    text-align:left;
+    font-style: normal;
+    font-weight: 100;
+    text-align: left;
     color: green;
     }
-ol li: {
-    color:firebrick
-        
-}  
 footer {
     font-size: 24px;
-    font-style:italic
-    font-weight:200
-    text-align:center
-    color:black
+    font-style: italic
+    font-weight: 200;
+    text-align: center;
+    color: black;
 }
 link {
     color: green; 
-    font-style:normal;
+    font-style: normal;
     font-weight: 50;
  (a {text-decoration: none;})
-    font-size: 8px;
+    a {
+        font-size: 8px;
+    }
+    a:hover {color: blue; }
+        
     
