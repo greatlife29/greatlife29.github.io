@@ -1,6 +1,15 @@
 /* myStyle.css */
+{
+    background-color: antiquewhite
+        border-color: #ccc
+}
+{
+    background-color: antiquewhite
+        border-color:#bbb
+}
 h1 {
     font-family: arial, "Times New Roman";
+    text-shadow: 4px 4 px;
     font-size: 40px;
     font-style: italic;
     font-weight:200;
@@ -8,7 +17,7 @@ h1 {
     color: #333399;
     }
 img {
-    float:left
+    float:right
 }
 h3 {
     font-family: arial, "Times New Roman";
@@ -25,6 +34,7 @@ p {
     font-weight:100;
     text-align:left;
     color: black;
+    clear:left
     }
 h4 {
     font-family: arial, "Times New Roman";
