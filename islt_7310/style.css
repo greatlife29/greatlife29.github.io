@@ -1,12 +1,17 @@
 /* myStyle.css */
 body {
     background-color: linen;
+    margin: 15px;
 }
 
 <style type="text/css">
 div {font-family: Arial; font-size: 14px; margin-left: 30px;}
 p   {border-left: 1px dotted gray;}    
 </style>
+a {
+    color: darkorange;
+    background-color: greenyellow;
+}
 h1 {
     background-color: lightblue;
     border: blue;
@@ -91,6 +96,7 @@ footer {
     font-style: italic;
     font-weight: 200;
     text-align: center;
+    padding: 5px;
     color: black;
 }
 link {
