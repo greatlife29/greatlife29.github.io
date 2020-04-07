@@ -1,4 +1,23 @@
 /* myStyle.css */
+<!--
+
+*****************************************************************************
+
+Title:  Style.css file
+
+Use:  To allow users to fill out and submit the contact form.
+
+Author:  Dennis Reece
+
+School/Term:  University of Missouri, Spring 2020
+
+Developed: April 7, 2020
+
+Tested:  April 7, 2020; Passed with no errors.
+
+******************************************************************************
+
+            -->
 body {
     background-color: linen;
     margin: 15px;
