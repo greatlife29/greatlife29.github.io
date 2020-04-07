@@ -6,6 +6,13 @@ h1 {
     background-color: lightblue;
     boarder-style: blue;
 }
+img {
+    padding: 5px;
+    margin: 5px;
+}
+footer {
+    border-top; 5px solid grey;
+}
 h1 {
     font-family: arial, "Times New Roman";
     text-shadow: 4px 4px;
@@ -64,7 +71,7 @@ li {
     font-style: normal;
     font-weight: 100;
     text-align: left;
-    color: lightgray;
+    color: maroon;
     }
 h6 {
     font-family: arial, "Times New Roman";
@@ -82,7 +89,6 @@ footer {
     font-weight: 200;
     text-align: center;
     color: black;
-    border-top; 5px solid grey;
 }
 link {
     color: green; 
