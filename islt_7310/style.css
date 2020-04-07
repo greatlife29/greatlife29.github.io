@@ -1,10 +1,6 @@
 /* myStyle.css */
 body {
     background-color: antiquewhite
-        border-color: #ccc
-}
-body {
-    background-color: antiquewhite
         border-color: #bbb
 }
 h1 {
@@ -73,6 +69,8 @@ h6 {
     text-align: left;
     color: green;
     }
+
+
 footer {
     font-size: 24px;
     font-style: italic
