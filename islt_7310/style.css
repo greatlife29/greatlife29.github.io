@@ -1,7 +1,10 @@
 /* myStyle.css */
 body {
-    background-color: antiquewhite
-        border-color: #bbb
+    background-color: linen;
+}
+h1 {
+    background-color: lightblue;
+    boarder-style: blue;
 }
 h1 {
     font-family: arial, "Times New Roman";
@@ -15,6 +18,8 @@ h1 {
     }
 img {
     float: right;
+    padding: 5px;
+    margin: 5px;
 }
 h3 {
     font-family: arial, "Times New Roman";
@@ -77,6 +82,7 @@ footer {
     font-weight: 200;
     text-align: center;
     color: black;
+    border-top; 5px solid grey;
 }
 link {
     color: green; 
