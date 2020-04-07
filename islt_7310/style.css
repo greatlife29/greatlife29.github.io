@@ -2,6 +2,11 @@
 body {
     background-color: linen;
 }
+
+<style type="text/css">
+div {font-family: Arial; font-size: 14px; margin-left: 30px;}
+p   {border-left: 1px dotted gray;}    
+</style>
 h1 {
     background-color: lightblue;
     border: blue;
