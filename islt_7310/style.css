@@ -1,32 +1,14 @@
 /* myStyle.css */
-<!--
-
-*****************************************************************************
-
-Title:  Style.css file
-
-Use:  To allow users to fill out and submit the contact form.
-
+/*Title:  Style.css file
 Author:  Dennis Reece
-
 School/Term:  University of Missouri, Spring 2020
-
 Developed: April 7, 2020
-
-Tested:  April 7, 2020; Passed with no errors.
-
-******************************************************************************
-
-            -->
+Tested:  April 7, 2020; Passed with no errors.*/
 body {
     background-color: linen;
     margin: 15px;
 }
-
-<style type="text/css">
-div {font-family: Arial; font-size: 14px; margin-left: 30px;}
-p   {border-left: 1px dotted gray;}    
-</style>
+p   {border-left: 1px dotted gray;}  
 a {
     color: darkorange;
     background-color: greenyellow;
