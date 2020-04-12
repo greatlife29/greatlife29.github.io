@@ -22,7 +22,7 @@ H6+li { color: brown; }
 a { font-weight: bold; }
 a:link { color: darkblue; }
 a:visited { color: red; }
-a:hover, a:focus { color: red; }
+a:hover, a:focus { color: grey; }
  
 .colortext {
     color: red;
