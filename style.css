@@ -21,7 +21,7 @@ H6+li { color: brown; }
 
 a:link { color: darkblue; }
 a:hover, a:focus { color: grey; }
-a:visited { color: aliceblue; }
+a:visited { color: red; }
 
 .colortext {
     color: red;
