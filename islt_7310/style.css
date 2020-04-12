@@ -15,11 +15,8 @@ body {
 
 p   {border-left: 1px dotted gray;}  
 
-h5+ul+li { color: black; }
+H6+li { color: brown; }
 
-H6+Ul+li { color: brown; }
-
-a { font-weight: bold; }
 a:link { color: darkblue; }
 a:visited { color: red; }
 a:hover, a:focus { color: grey; }
@@ -100,6 +97,7 @@ li {
     font-style: normal;
     font-weight: 100;
     text-align: left;
+    color: black;
    }
 
 h6 {
