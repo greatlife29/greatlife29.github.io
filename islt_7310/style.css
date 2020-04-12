@@ -15,32 +15,13 @@ body {
 
 p   {border-left: 1px dotted gray;}  
 
-h5+li {color: black;}
+h5+li { color: black; }
 
-H6+li {color: brown;}
+H6+li { color: brown; }
 
-a:link {
-    color: darkblue;}
-}
-
-/* unvisited link */
-a:link {
-    color: lightgray;
-}
-
-/* visited link */
->a:visited {
-    color: darkcyan;
-}
-
-*/ mouse over link */
-a:hover: yellow;
-}
-
-/* selected link */
->a: active {
-    color: goldenrod;
-}
+a:link { color: darkblue; }
+a:hover, a:focus { color: grey; }
+a:visited, { color: aliceblue; }
 
 .colortext {
     color: red;
