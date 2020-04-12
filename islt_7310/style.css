@@ -19,10 +19,11 @@ h5+li { color: black; }
 
 H6+li { color: brown; }
 
+a { font-weight: bold; }
 a:link { color: darkblue; }
-a:hover, a:focus { color: grey; }
 a:visited { color: red; }
-
+a:hover, a:focus { color: red; }
+ 
 .colortext {
     color: red;
 }
