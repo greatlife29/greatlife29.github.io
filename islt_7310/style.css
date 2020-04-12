@@ -15,9 +15,9 @@ body {
 
 p   {border-left: 1px dotted gray;}  
 
-h1+li {color: black;}
+h5+li {color: black;}
 
-H2+li {color: brown;}
+H6+li {color: brown;}
 
 a:link {
     color: darkblue;}
