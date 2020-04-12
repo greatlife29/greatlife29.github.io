@@ -1,5 +1,6 @@
-/* myStyle.css */
-/*Title:  Style.css file
+<!DOCTYPE html>
+<title> Style.css </title>
+/* Title: Style.css file */
 Author:  Dennis Reece
 School/Term:  University of Missouri, Spring 2020
 Developed: April 7, 2020
@@ -13,32 +14,34 @@ a {
     color: darkorange;
     background-color: greenyellow;
 }
-a:link {
+footer>a:link {
     color: darkblue;}
 }
 
 /* unvisited link */
-a:link {
+footer>a:link {
     color: #ff0000;
 }
 
 /* visited link */
-a:visited {
+footer>a:visited {
     color: #00FF00;
 }
 
 */ mouse over link */
-a:hover: #FF00FF {
+footer>a:hover: #FF00FF {
 }
 
 /* selected link */
-a: active {
+footer>a: active {
     color: #0000FF;
 }
-
+.colortext {
+    color: red;
+}
 h1 {
     background-color: lightblue;
-    border: blue;
+    border-style: blue;
     font-family: arial, "Times New Roman";
     text-shadow: 4px 4px;
     font-size: 40px;
@@ -104,8 +107,8 @@ li {
     font-style: normal;
     font-weight: 100;
     text-align: left;
-    Color: maroon;
-    }
+    class="colortext">
+}
 h6 {
     font-family: arial, "Times New Roman";
     font-size: 36px;
@@ -116,7 +119,7 @@ h6 {
     }
 footer {
     border-top: 5px solid black;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 200;
     text-align: center;
@@ -127,7 +130,7 @@ link {
     color: green; 
     font-style: normal;
     font-weight: 100;
-    font-size: 8px;
+    font-size: 10px;
     text-decoration: none;
 }
         
