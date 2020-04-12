@@ -17,8 +17,7 @@ p   {border-left: 1px dotted gray;}
 
 a {
     color: darkorange;
-    background-color: greenyellow;
-}
+    }
 
 a:link {
     color: darkblue;}
