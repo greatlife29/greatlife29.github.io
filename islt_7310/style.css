@@ -22,12 +22,8 @@ H6+li { color: brown; }
 a { font-weight: bold; }
 a:link { color: darkblue; }
 a:visited { color: red; }
-a:hover, a:focus { color: red; }
+a:hover, a:focus { color: grey; }
  
-.colortext {
-    color: red;
-}
-
 h1 {
     background-color: lightblue;
     border-style: blue;
@@ -104,8 +100,7 @@ li {
     font-style: normal;
     font-weight: 100;
     text-align: left;
-    class="colortext">
-}
+   }
 
 h6 {
     font-family: arial, "Times New Roman";
