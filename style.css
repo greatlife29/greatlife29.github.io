@@ -24,10 +24,6 @@ a:link { color: darkblue; }
 a:visited { color: red; }
 a:hover, a:focus { color: grey; }
  
-.colortext {
-    color: red;
-}
-
 h1 {
     background-color: lightblue;
     border-style: blue;
