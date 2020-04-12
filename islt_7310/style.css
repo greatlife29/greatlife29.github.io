@@ -15,10 +15,6 @@ body {
 
 p   {border-left: 1px dotted gray;}  
 
-a {
-    color: darkorange;
-    }
-
 a:link {
     color: darkblue;}
 }
