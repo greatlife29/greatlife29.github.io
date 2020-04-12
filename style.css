@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-
-<title> Style </title>
-
-/* Title: Style.css file */
+/* Title: Style.css file 
 Author:  Dennis Reece
 School/Term:  University of Missouri, Spring 2020
 Developed: April 7, 2020
-Tested:  April 7, 2020; Passed with no errors.*/
+Tested:  April 12, 2020; Passed with no errors.*/
 
 body {
     background-color: linen;
@@ -15,18 +11,31 @@ body {
 
 p   {border-left: 1px dotted gray;}  
 
-H6+li { color: brown; }
+.previous { color: brown; }
 
-a:link { color: darkblue; }
-a:visited { color: red; }
-a:hover, a:focus { color: grey; }
+a:link { color: maroon; }
+a:visited { color: slategrey; }
+a:hover, a:focus { color: orangered; }
+a:active { color: mediumaquamarine; }
+ 
+footer a:link { color: darkblue; font-size: 16pt; }
+footer a:visited { color: red; font-size: 16pt; }
+footer a:hover, footer a:focus { color: grey; font-size: 16pt; }
+footer a:active { color: brown; font-size: 16pt; }
+
+blockquote {
+    font-size: 16pt; color: red;
+     
+}
+
  
 h1 {
     background-color: lightblue;
-    border-style: blue;
+    border-style: double;
+    border-color: blue;
     font-family: arial, "Times New Roman";
     text-shadow: 4px 4px;
-    font-size: 40px;
+    font-size: 28pt;
     font-style: italic;
     font-weight: bold;
     text-align: center;
@@ -36,7 +45,7 @@ h1 {
 
 h2 {
     font-family: arial, "Times New Roman";
-    font-size: 36px;
+    font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -51,7 +60,7 @@ img {
 
 h3 {
     font-family: arial, "Times New Roman";
-    font-size: 36px;
+    font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -61,7 +70,7 @@ h3 {
 p {
     font-family: arial, "Times New Roman";
     line-height: 1.5em;
-    font-size: 14px;
+    font-size: 16pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -75,7 +84,7 @@ ul {
 
 h4 {
     font-family: arial, "Times New Roman";
-    font-size: 36px;
+    font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -84,7 +93,7 @@ h4 {
 
 h5 {
     font-family: arial, "Times New Roman";
-    font-size: 36px;
+    font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -93,7 +102,7 @@ h5 {
 
 li {
     font-family: arial, "Times New Roman";
-    font-size: 20px;
+    font-size: 16pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -102,7 +111,7 @@ li {
 
 h6 {
     font-family: arial, "Times New Roman";
-    font-size: 36px;
+    font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -111,7 +120,7 @@ h6 {
 
 footer {
     border-top: 5px solid black;
-    font-size: 20px;
+    font-size: 16pt;
     font-style: italic;
     font-weight: 200;
     text-align: center;
@@ -119,11 +128,10 @@ footer {
     color: black;
 }
 
-link {
-    color: green; 
+a {
     font-style: normal;
     font-weight: 100;
-    font-size: 10px;
+    font-size: 14pt;
     text-decoration: none;
 }
         
