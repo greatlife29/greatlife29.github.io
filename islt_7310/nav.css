@@ -1,0 +1,37 @@
+/* Title: Navigation.css file 
+Author:  Dennis Reece
+School/Term:  University of Missouri, Spring 2020
+Developed: April 13, 2020
+Tested:  April 13, 2020; Passed with no errors.*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial"
+}
+.nav {
+    background-color: grey;
+    border: 5px solid black;
+    width: 1310px;
+    color: black;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.nav >li {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.nav > li >a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav > li > a:hover {
+    color: yellow;
+}
+
+     
+    
+ 
