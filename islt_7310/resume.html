@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 
-    <html lang="en-US">
+<html lang="en-US">
 
-   
-<!--
+<head>
+    
+ <!--
 
 *****************************************************************************
 
@@ -17,80 +18,66 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: April 7, 2020
 
-Tested:  April 16, 2020; Passed on Firefox and Chrome browsers.
+Tested:  April 25 2020; Passed on Firefox and Chrome browsers.
 
 ******************************************************************************
+        -->  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel = "stylesheet" type = "text/css" href = "nav.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "style.css"/> 
+</head>
 
-            -->
-
-            <meta charset="utf-8">   
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-            <title>Resume</title>
-    
-   <link rel = "stylesheet"
-      type = "text/css"
-      href = "nav.css"/>
-    
-    <link rel = "stylesheet" 
-      type = "text/css" 
-      href = "style.css"/> 
-
-<nav id="nav">    
-        
-    <ul id="navigation">  
-        
-         <li><a href="index.html" aria-current="page">Home</a></li>         
-        
-         <li><a href="resume.html">Resume</a>
-        </li>
-        
-         <li><a href="accomplishments.html">Accomplishments</a></li>
-        
-         <li><a href="background.html">Background</a>
-        </li>
-                
+<body> 
+      <h1>Dennis Reece</h1>
+      
+<header> 
+         
+<nav> 
+      <label id="hamburger">&#9776;</label>
+     <ul>
+        <li><a href="index.html">Home</a></li>         
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="background.html">Background</a></li>
         <li><a href="#project">Project</a>
-            <ul>
+            <ul id="mobileHide"> <!--we need a class or ID to help us hide this in the mobile view only-->
                 <li><a href="#project">Project 1</a></li>
                 <li><a href="#project">Project 2</a></li>
                 <li><a href="#project">Project 3</a></li>
              </ul>
         </li>
-        
         <li><a href="reflection.html">Reflection</a></li>
-        
-        <li><a href="contact">Contact</a></li>
-                            
-    </ul>
+        <li><a href="contact.html">Contact</a></li>            
+ </ul>
     
-    </nav>
- 
-    <main>
-     
-   
- <h1>Resume</h1>
+</nav>    
+
+</header>
         
- <p>
+        <h1>Resume</h1>  
+
+<main>
+    
+        <p>
      Click the Resume Box below to view my resume. </p>
         
 <div class="boxed">        
     
     <a href="../islt_7310/docs/Reeceresume.PDF">Resume</a>
             
- </div>    
-
- </main>
-                    
+ </div>
+    
+</main>    
+    
 <footer>
     
 Proprietary information of Dennis Reece. Do not distribute or reproduce without express permission of Dennis Reece. Email darvgk@mail.missouri.edu
     
-    <a
-       
-       href = "mailto:darvgk@mail.missouri.edu">darvgk@mail.missouri.edu</a>
+    <a href="mailto:darvgk@mail.missouri.edu">darvgk@mail.missouri.edu</a>
         
-</footer>    
-  
- 
+</footer>
+    
+</body>
+    
+</html>
