@@ -2,8 +2,7 @@
 
     <html lang="en-US">
 
- <head>  
-     
+   
 <!--
 
 *****************************************************************************
@@ -18,50 +17,72 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: April 7, 2020
 
-Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
+Tested:  April 16, 2020; Passed on Firefox and Chrome browsers.
 
 ******************************************************************************
 
             -->
 
-            <meta charset="utf-8">              
-
-            <title>Resume</title>
-     
- <link rel = "stylesheet" 
-      type = "text/css" 
-      href= "style.css"/>
-     
-  <style type = "text/css">
-a {
-    color: peru;
-  }
-a:link, a:visited {
-  background-color: goldenrod;
-  color: blue;
-  padding: 10px 10px;
-  text-align: right;
-  text-decoration: none;
-  display: inline-block;
-}
-a:hover, a:active {
-  background-color: darkgray;
-}
-</style>
-     
-</head>
+            <meta charset="utf-8">   
         
- <body>
-     
- <h1>Resume</h1>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
- <p>
-        Click the Resume Box to view my resume
+            <title>Resume</title>
+    
+   <link rel = "stylesheet"
+      type = "text/css"
+      href = "nav.css"/>
+    
+    <link rel = "stylesheet" 
+      type = "text/css" 
+      href = "style.css"/> 
+
+<nav id="nav">    
+        
+    <ul id="navigation">  
+        
+         <li><a href="index.html" aria-current="page">Home</a></li>         
+        
+         <li><a href="resume.html">Resume</a>
+        </li>
+        
+         <li><a href="accomplishments.html">Accomplishments</a></li>
+        
+         <li><a href="background.html">Background</a>
+        </li>
+                
+        <li><a href="#project">Project</a>
+            <ul>
+                <li><a href="#project">Project 1</a></li>
+                <li><a href="#project">Project 2</a></li>
+                <li><a href="#project">Project 3</a></li>
+             </ul>
+        </li>
+        
+        <li><a href="reflection.html">Reflection</a></li>
+        
+        <li><a href="contact">Contact</a></li>
+                            
+    </ul>
+    
+    </nav>
+ 
+    <main>
      
-            <a href="../islt_7310/docs/Reeceresume.PDF">Resume</a>
+   
+ <h1>Resume</h1>
+        
+ <p>
+     Click the Resume Box below to view my resume. </p>
+        
+<div class="boxed">        
+    
+    <a href="../islt_7310/docs/Reeceresume.PDF">Resume</a>
             
- </p>
-            
+ </div>    
+
+ </main>
+                    
 <footer>
     
 Proprietary information of Dennis Reece. Do not distribute or reproduce without express permission of Dennis Reece. Email darvgk@mail.missouri.edu
@@ -72,6 +93,4 @@ Proprietary information of Dennis Reece. Do not distribute or reproduce without 
         
 </footer>    
   
-</body>
-
-</html>
+ 

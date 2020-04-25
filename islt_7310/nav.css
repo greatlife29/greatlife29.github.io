@@ -1,37 +1,190 @@
-/* Title: Navigation.css file 
+/* Title: Nav.css file 
 Author:  Dennis Reece
 School/Term:  University of Missouri, Spring 2020
 Developed: April 13, 2020
-Tested:  April 13, 2020; Passed with no errors.*/
+Tested:  April 22, 2020; Passed with no errors.*/
+
 body {
     margin: 0;
     padding: 0;
-    font-family: "Arial"
-}
-.nav {
-    background-color: grey;
-    border: 5px solid black;
-    width: 1310px;
-    color: black;
-    list-style: none;
+    font-family: arial;}
+
+.active a:link { 
+    background-color: beige;}
+
+#hamburger {   
+    display: none;}
+
+nav {    
+    top: 0px;}
+
+nav ul {    
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;}
+
+nav>ul li { 
+    position: relative;
     text-align: center;
-    padding: 20px 0 20px 0;
-}
+    float: left;}
 
-.nav >li {
-    display: inline-block;
-    padding-right: 50px;
-}
-
-.nav > li >a {
+nav a {
     text-decoration: none;
-    color: white;
-}
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    width: 110px; 
+    margin: 10px;}
 
-.nav > li > a:hover {
-    color: yellow;
-}
+nav a:link{ 
+    background-color: beige;}
 
-     
+nav a:hover, nav a:focus {
+    background-color: 
+    cornsilk;}
+
+nav a:active{
+    background-color: aquamarine;}
+
+nav ul>li ul { 
+    position: absolute;
+    top: 100%; 
+    display: none;}
+
+nav ul ul li { 
+    float:none;}
+
+nav>ul>li:hover>ul{ 
+    display: block;}
+
+header {
+    position: relative;
+    height: 40px; 
+    display: block;
+    background-color: cadetblue;
+    width: 100%;}
     
- 
+    #hamburger {
+        display: inline-block;
+        padding-left: 20px;
+        width: 26px;
+        float: left; 
+        font-size: 2em;}
+    
+    nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px 20px 20px 0px;
+        top: 20px;}
+    
+    nav:hover ul {
+        display: block;}
+    
+    nav:hover #mobileHide {
+        display: none;}
+    
+    nav li {
+        text-align: center;
+        padding: 0;margin: 0;}
+    
+    nav>ul li {  
+        text-align: left; 
+        font-weight: bold;
+        color: darkmagenta; 
+        float: left;}
+    
+    nav a { 
+        text-decoration: none;
+        display: inline-block;
+        border-top: none; 
+        border-bottom: none; 
+        padding: 15px 0px 15px 35px;
+        width: 240px; 
+        margin-bottom: 2px;}
+    
+    nav .lastMobile {
+        border-bottom: 3px dotted magenta;}
+    
+    nav ul li ul {
+        display:none;}
+
+@media screen and (max-width: 960px) {
+    
+    #nav {
+        width: 100%;}
+ }
+    
+@media screen and (max-width: 640px) {    
+    
+    header {
+        position: absolute;}
+}
+    
+    #menu-icon {
+        display: inline-block;}
+  
+    nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: black;
+        right: 10px;
+        top: 65px;
+        width: 35%;}
+    
+    nav:hover ul {
+        display: block;}
+    
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+        margin: 0;}
+
+    nav {
+    width: 100%; 
+    height: 15px;
+    background-color: lightslategray;}
+
+    nav p {
+    font-family: arial;
+    color: black;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 20px 20px;}
+
+nav ul {
+    float: left;}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;}
+
+nav ul li a {
+    display: block;
+    font-family: arial;
+    color: black;
+    font-size: 18px;
+    padding: 22px 14px;
+    text-decoration: none;}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: linen;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;}
+
+nav ul li:hover ul {
+    display: block;}
+
+nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;}
+
+nav ul li ul li a {
+     padding: 10px 14px;}
+
+nav ul li ul li a:hover {
+    background-color: lightgray;}

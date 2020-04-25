@@ -2,45 +2,107 @@
 Author:  Dennis Reece
 School/Term:  University of Missouri, Spring 2020
 Developed: April 7, 2020
-Tested:  April 12, 2020; Passed with no errors.*/
+Tested:  April 22, 2020; Passed with no errors.*/
 
 body {
     background-color: linen;
-    margin: 15px;
+    height: 100%;
 }
 
-p   {border-left: 1px dotted gray;}  
+#container {
+    width: 960px;
+    margin: 0px auto;
+}
+
+left-column {
+    width: 700px;
+    float: left;
+    background: linen;}
+
+#menu-icon {
+    width: 32px;
+    height: 32px;}
+
+#apps {
+    float: right;
+}
+
+#apps p {
+    margin-top: 100%;
+}
+
+#apps p {
+    display: inline;
+}
+
+#apps p:hover {
+    background: linen;
+    color: black;
+}
+
+header {
+    position: relative;
+    height: 80px; 
+    display: block;
+    background-color: cadetblue;
+    width: 100%;
+    }
+
+nav p:first-of-type:first-letter {
+    font-size: 24px;
+    font-weight: bold;}
+
+p + p {
+    text-indent: 1.5em;
+}
 
 .previous { color: brown; }
 
-a:link { color: maroon; }
-a:visited { color: slategrey; }
-a:hover, a:focus { color: orangered; }
-a:active { color: mediumaquamarine; }
- 
-footer a:link { color: darkblue; font-size: 16pt; }
-footer a:visited { color: red; font-size: 16pt; }
-footer a:hover, footer a:focus { color: grey; font-size: 16pt; }
-footer a:active { color: brown; font-size: 16pt; }
+li {
+  list-style-type: circle;
+}
+
+a:link { 
+    color: black; }
+
+a:link {
+    font-size: 18px; }
+
+a:link {
+    text-align: center; }
+
+a:visited { 
+    color: black; }
+
+a:hover, a:focus { 
+    color: orangered; }
+
+a:active { 
+    color: black; }
 
 blockquote {
     font-size: 16pt; color: red;
-     
 }
 
- 
+.boxed {
+  border: solid blue;
+  background-color: linen;
+  padding-left: 10px;
+  margin-left: 28px;
+  margin-right: 1226px;       
+}
+
 h1 {
-    background-color: lightblue;
-    border-style: double;
-    border-color: blue;
-    font-family: arial, "Times New Roman";
+    text-align: center;
+    font-family: arial;
     text-shadow: 4px 4px;
     font-size: 28pt;
     font-style: italic;
     font-weight: bold;
-    text-align: center;
-    text-shadow: 3px 3px 5px #333;
+    text-shadow: 3px 3px 5px;
     color: #333399;
+    margin-top: 80px;
+    padding-right: 10px;
     }
 
 h2 {
@@ -115,24 +177,15 @@ h6 {
     font-style: normal;
     font-weight: 100;
     text-align: left;
+    padding-top: 120px;
     color: green;
     }
 
 footer {
-    border-top: 5px solid black;
-    font-size: 16pt;
+    border-top: 1px solid black;
+    font-size: 12pt;
     font-style: italic;
-    font-weight: 200;
-    text-align: center;
-    padding: 5px;
+    font-weight: 100;
+    text-align: left;
     color: black;
 }
-
-a {
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14pt;
-    text-decoration: none;
-}
-        
-  

@@ -18,14 +18,16 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: April 7, 2020
 
-Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
+Tested:  April 22, 2020; Passed on Firefox and Chrome browsers.
 
 ******************************************************************************
 
             -->  
     
-            <meta charset="utf-8">
-
+    <meta charset="utf-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
 <title>Welcome</title>
     
     <link rel = "stylesheet"
@@ -35,32 +37,58 @@ Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
     <link rel = "stylesheet" 
       type = "text/css" 
       href = "style.css"/> 
-
-</head>
-
-<body>
     
-    <ul class="nav">
-            
-         <li><a href="index.html">Home</a></li>
-         <li><a href="resume.html">Resume</a></li>
-         <li><a href="accomplishments.html">Accomplishments</a></li>
-         <li><a href="background.html">Background</a></li>
+</head>  
+    
+      <h1>Dennis Reece</h1>
+    
+    <nav id="container"></nav>
+    <nav id="main"></nav>
+    <nav id="footer"></nav>
+ 
+<header> 
+    
+     <label id="hamburger">&#9776;</label>
+ 
+</header>
+    
+<nav>    
+ 
+    <ul>
+   
+        <li><a href="index.html">Home</a></li>         
+        <li><a href="resume.html">Resume</a>
+        </li>
+        
+        <li><a href="accomplishments.html">Accomplishments</a></li>
+        
+        <li><a href="background.html">Background</a>
+        </li>
+                
+        <li><a href="#project">Project</a>
+            <ul>
+                <li><a href="#project">Project 1</a></li>
+                <li><a href="#project">Project 2</a></li>
+                <li><a href="#project">Project 3</a></li>
+             </ul>
+        </li>
+        
+        <li><a href="reflection.html">Reflection</a></li>
+        
+        <li><a href="contact.html">Contact</a></li>                 
                            
-    </ul>
+ </ul>
+
+     <h2>This page has a picture of Dennis Reece</h2>
         
-    <h1>Dennis Reece</h1>
-        
-        <p>
+    <p>
             
             <img src ="../islt_7310/images/Dennis.png"
                  alt = "Picture of Dennis Reece" width=200
                  height=200>         
               
-        </p>
-
-        <h2>This page has a picture of Dennis Reece</h2>
-        
+    </p>
+    
         <h3>Life</h3>
 
             <p>
@@ -125,7 +153,7 @@ Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
                                             
                         <a
                        
-                        href="https://missouri.edu">University of Missouri.com</a>
+                       href="https://missouri.edu">University of Missouri.com</a>
         
                     </li>  
     
@@ -139,13 +167,15 @@ Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
                                             
                         <a
                        
-                        href="https://online.csp.edu/my/brand?utm_medium=ppc&utm_source=bing&tid=2961075&utm_campaign=B_Brand_B_Search&utm_term=concordia%20university%20st%20paul&utm_content=c_o_e_1183075166250794_&msclkid=37e0a70497bf1ea7b889f997d0820efd">Concordiauniversity.com</a>
+                       href="https://online.csp.edu/my/brand?utm_medium=ppc&utm_source=bing&tid=2961075&utm_campaign=B_Brand_B_Search&utm_term=concordia%20university%20st%20paul&utm_content=c_o_e_1183075166250794_&msclkid=37e0a70497bf1ea7b889f997d0820efd">Concordiauniversity.com</a>
         
                     </li>    
     
-                    </ul>
-        
-<footer>
+</ul>
+     
+</nav>  
+    
+<footer> 
     
 Proprietary information of Dennis Reece. Do not distribute or reproduce without express permission of Dennis Reece. Email darvgk@mail.missouri.edu
     
@@ -153,8 +183,4 @@ Proprietary information of Dennis Reece. Do not distribute or reproduce without 
        
        href="mailto:darvgk@mail.missouri.edu">darvgk@mail.missouri.edu</a>
         
-</footer> 
-        
-</body>
-    
-</html>
+</footer>

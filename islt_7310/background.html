@@ -8,7 +8,7 @@
 
 *****************************************************************************
 
-Title:  Experience Page
+Title:  Background Page
 
 Use:  To allow users to fill out and submit the contact form.
 
@@ -18,26 +18,65 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: April 7, 2020
 
-Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
+Tested:  April 16, 2020; Passed on Firefox and Chrome browsers.
 
 ******************************************************************************
 
             --> 
 
             <meta charset="utf-8">
-
-<title>Experience</title>
     
-<link rel = "stylesheet" 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Background</title>
+    
+    <link rel = "stylesheet"
+      type = "text/css"
+      href = "nav.css"/>
+    
+    <link rel = "stylesheet" 
       type = "text/css" 
-      href= "style.css"/>    
+      href = "style.css"/> 
 
 </head>
+    
+<nav id="nav">    
+        
+    <ul id="navigation">  
+        
+         <li><a href="index.html" aria-current="page">Home</a></li>         
+        
+         <li><a href="resume.html">Resume</a>
+        </li>
+        
+         <li><a href="accomplishments.html">Accomplishments</a></li>
+        
+         <li><a href="background.html">Background</a>
+        </li>
+                
+        <li><a href="#project">Project</a>
+            <ul>
+                <li><a href="#project">Project 1</a></li>
+                <li><a href="#project">Project 2</a></li>
+                <li><a href="#project">Project 3</a></li>
+             </ul>
+        </li>
+        
+        <li><a href="reflection.html">Reflection</a></li>
+        
+        <li><a href="contact">Contact</a></li>
+                            
+    </ul>
+    
+    </nav>
 
-<body>
         
         <h1>Positions</h1>
     
+     
+    
+        <h2>Current Position</h2>
+                        
 <ul>
     
                     <li>
@@ -46,7 +85,7 @@ Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
          
                     </li>
     
-    </ul>
+ </ul>
         
           <p>
     
@@ -54,8 +93,10 @@ Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
               
           </p>
     
+            <h3>Past Positions</h3>
+                        
     <ul>
-                            
+                                
                     <li>
         January 1991 – September 2013   
         Reece Services Group 
@@ -104,4 +145,3 @@ Proprietary information of Dennis Reece. Do not distribute or reproduce without 
         
 </footer>         
     
-</html>
