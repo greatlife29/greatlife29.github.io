@@ -1,0 +1,154 @@
+/* Title: Nav.css file 
+Author:  Dennis Reece
+School/Term:  University of Missouri, Spring 2020
+Developed: April 13, 2020
+Tested:  April 25, 2020; Passed with no errors.*/
+
+.active a:link { 
+    background-color: beige;} /*this class should be added to one specific <li> on each page.. the <li> that represents the file you are coding.. */
+
+#hamburger {   
+    display: none;}
+
+nav {    
+    top: 0px;}
+
+nav ul {    
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;}
+
+nav>ul li { 
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+    float: left;}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    width: 150px; 
+    margin: 10px;}
+
+nav a:link{ 
+    background-color: lightslategray;}
+
+nav a:hover, nav a:focus {
+    background-color: cadetblue;}
+
+nav a:active{
+    background-color: aquamarine;}
+
+nav ul>li ul { 
+    position: absolute;
+    top: 100%; 
+    display: none;}
+
+nav ul ul li { 
+    float:none;}
+
+nav>ul>li:hover>ul{ 
+    display: block;}
+
+/*#hamburger { -- we need our hamburger to only display when we are in mobile view... so we are copying this to be inside the media query only
+        display: inline-block;
+        padding-left: 20px;
+        width: 26px;
+        float: left; 
+        font-size: 2em;}
+    
+ nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px 20px 20px 0px;
+        top: 20px;}
+    
+ nav:hover ul {
+        display: block;}
+    
+ nav:hover #mobileHide {
+        display: none;}
+    
+ nav li {
+        text-align: center;
+        padding: 0;margin: 0;}
+    
+ nav>ul li {  
+        text-align: left; 
+        font-weight: bold;
+        color: darkmagenta; 
+        float: left;}
+    
+nav a { 
+        text-decoration: none;
+        display: inline-block;
+        border-top: none; 
+        border-bottom: none; 
+        padding: 15px 0px 15px 35px;
+        width: 240px; 
+        margin-bottom: 2px;}
+    
+nav .lastMobile {
+        border-bottom: 3px dotted magenta;}
+    
+nav ul li ul {
+        display:none;} -- this should all be under your media query as it is re-organizing your navigation to be vertical instead of horizonta*/
+
+@media screen and (max-width: 640px) {    
+    
+header {
+    position: absolute;}
+        
+#hamburger {
+        display: inline-block;
+        padding-left: 20px;
+        width: 26px;
+        float: left; 
+        font-size: 2em;
+        margin-top: 20px;}
+    
+#mobileHide{ 
+        display: none;}
+    
+nav {
+        top:0;       
+        position: relative;}
+    
+nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 0;
+        background: cadetblue;
+        margin-top: 60px;
+        right: 0px;
+        width: 100%;}
+    
+ nav li {
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+        margin: 0;}    
+
+ nav p {
+        font-family: arial;
+        color: black;
+        font-size: 24px;
+        line-height: 55px;
+        float: left;
+        padding: 20px 20px;}
+
+ nav ul {
+        float: left;}
+
+ nav ul li {
+        float: left;
+        list-style: none;
+        position: relative;}
+     
+ nav a {
+        width: 100%;} 
+    
+nav:hover ul {
+        display: block;}
+}
