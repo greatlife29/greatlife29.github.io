@@ -32,7 +32,7 @@ nav a {
     margin: 10px;}
 
 nav a:link{ 
-    background-color: lightslategray;}
+    background-color: cadetblue;}
 
 nav a:hover, nav a:focus {
     background-color: cadetblue;}

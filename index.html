@@ -18,63 +18,66 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: April 7, 2020
 
-Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
+Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
 
 ******************************************************************************
-
-            -->  
-    
-            <meta charset="utf-8">
-
-<title>Welcome</title>
-    
-<link rel = "stylesheet" 
-      type = "text/css" 
-      href= "style.css"/>    
-
+        -->  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel = "stylesheet" type = "text/css" href = "nav.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "style.css"/> 
 </head>
 
-<body>
-        
-        <h1>Dennis Reece</h1>
+<body> 
+      <h1>Dennis Reece</h1>
+      
+<header> 
+         
+<nav> 
+      <label id="hamburger">&#9776;</label>
+ <ul>
+        <li><a href="index.html">Home</a></li>         
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="background.html">Background</a></li>
+        <li><a href="#project">Project</a>
+            <ul id="mobileHide"> <!--we need a class or ID to help us hide this in the mobile view only-->
+                <li><a href="#project">Project 1</a></li>
+                <li><a href="#project">Project 2</a></li>
+                <li><a href="#project">Project 3</a></li>
+             </ul>
+        </li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>            
+ </ul>
+    
+</nav>
+
+</header>
+
+     <h2>This page has a picture of Dennis Reece</h2>
         
         <p>
-            
-            <img src ="../islt_7310/images/Dennis.png"
+        <img src ="../islt_7310/images/Dennis.png"
                  alt = "Picture of Dennis Reece" width=200
-                 height=200>         
-              
+                 height=200>
         </p>
-
-        <h2>This page has a picture of Dennis Reece</h2>
-        
+    
+<main>    
         <h3>Life</h3>
 
-            <p>
-         
-            Hello, my name is Dennis Reece and I am a long-distance learner living in Nashville, Tennessee. Prior to moving to Tennessee, I lived in Phoenix, Arizona for sixteen years. I have a Master’s in Education in Curriculum Design and Learning and Development from Concordia University. I currently work at UnitedHealthcare as an instructional designer based out of my home. I develop online web-based training, assessments, and instructor led courses.  My background includes over fifteen years as an instructional designer and twenty years as a trainer. My past work experience has been mainly in the banking and credit industry in which I have held supervisory and executive management positions. I help start two dot.com companies and had my own consulting company for 15 years. My skill set includes: Management, Auditing, Consulting, Instructional Design theories and practices, use of E-Learning software.
-    
-            </p>
+            <p>Hello, my name is Dennis Reece and I am a long-distance learner living in Nashville, Tennessee. Prior to moving to Tennessee, I lived in Phoenix, Arizona for sixteen years. I have a Master’s in Education in Curriculum Design and Learning and Development from Concordia University. I currently work at UnitedHealthcare as an instructional designer based out of my home. I develop online web-based training, assessments, and instructor led courses.  My background includes over fifteen years as an instructional designer and twenty years as a trainer. My past work experience has been mainly in the banking and credit industry in which I have held supervisory and executive management positions. I help start two dot.com companies and had my own consulting company for 15 years. My skill set includes: Management, Auditing, Consulting, Instructional Design theories and practices, use of E-Learning software.</p>
                                                            
-         <h4>Life Quotes</h4>                                                       
-
-                <blockquote>
-        
-                Quote, &lsquo; All labor that uplifts humanity has dignity and importance and should be undertaken with painstaking excellence. &rsquo; 
-                Martin Luther King, Jr.
-    
-                </blockquote>
+         <h4>Life Quotes</h4>
+        <blockquote>Quote, &lsquo; All labor that uplifts humanity has dignity and importance and should be undertaken with painstaking excellence. &rsquo; 
+                Martin Luther King, Jr.</blockquote>
                                                            
-                <blockquote>
-        
-                Quote, &lsquo; Life is really simple, but we insist on making it complicated. &rsquo; 
-                Confucius
-    
-                </blockquote> 
+                <blockquote>Quote, &lsquo; Life is really simple, but we insist on making it complicated. &rsquo; 
+                Confucius</blockquote> 
                 
     <h5>Jobs</h5>    
     
-                    <ul>
+ <ul>
     
                     <li>
         
@@ -87,20 +90,14 @@ Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
                         <a
                        
                         href="https://www.uhc.com/lp/uhone-lp3o?LeadSourceName=Brand-UHC-Bing-GeneralAudience-Exact&utm_source=bing&utm_medium=cpc&utm_campaign=Brand-UHC-Bing-MA-HV:UnitedHealthcare-Exact-A55&utm_term=unitedhealthcare?st-t=bing_brand&&msclkid=26851b9a779010f6b0ed450930527033&utm_source=bing&utm_medium=cpc&utm_campaign=Brand-UHC-Bing-MA-HV%3AUnitedHealthcare-Exact-A55&utm_term=unitedhealthcare&utm_content=High%20Volume%20-%20UnitedHealthcare&gclid=CM_9m4-t4-gCFSeqxQIdUoEFBw&gclsrc=ds">UnitedHealthcare.com</a>
-        
                     </li>    
     
-                    <li class="previous"> 
-        
-                    RSG - Business Owner
-        
-                    </li>
-    
-                    </ul>
+                    <li class="previous">RSG - Business Owner</li>
+   </ul>
     
       <h6>Education</h6> 
     
-                    <ul> 
+   <ul> 
                         
                     <li>
         
@@ -108,40 +105,25 @@ Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
         
                     </li>
                         
-                     <li>
-                                            
-                        <a
+                     <li><a href="https://missouri.edu">University of Missouri.com</a>
+                            </li>  
+
+                    <li class="previous">Concordia University</li>
+                    <li><a
                        
-                        href="https://missouri.edu">University of Missouri.com</a>
-        
-                    </li>  
-    
-                    <li class="previous">
-        
-                    Concordia University
-                        
-                    </li>
-                        
-                    <li>
-                                            
-                        <a
-                       
-                        href="https://online.csp.edu/my/brand?utm_medium=ppc&utm_source=bing&tid=2961075&utm_campaign=B_Brand_B_Search&utm_term=concordia%20university%20st%20paul&utm_content=c_o_e_1183075166250794_&msclkid=37e0a70497bf1ea7b889f997d0820efd">Concordiauniversity.com</a>
-        
+                       href="https://online.csp.edu/my/brand?utm_medium=ppc&utm_source=bing&tid=2961075&utm_campaign=B_Brand_B_Search&utm_term=concordia%20university%20st%20paul&utm_content=c_o_e_1183075166250794_&msclkid=37e0a70497bf1ea7b889f997d0820efd">Concordiauniversity.com</a>
                     </li>    
+</ul>
     
-                    </ul>
-        
+</main>    
+     
 <footer>
-    
 Proprietary information of Dennis Reece. Do not distribute or reproduce without express permission of Dennis Reece. Email darvgk@mail.missouri.edu
     
-    <a
-       
-       href="mailto: darvgk@mail.missouri.edu">darvgk@mail.missouri.edu</a>
+    <a href="mailto:darvgk@mail.missouri.edu">darvgk@mail.missouri.edu</a>
         
-</footer> 
-        
+</footer>
+    
 </body>
     
 </html>
