@@ -2,7 +2,7 @@
 Author:  Dennis Reece
 School/Term:  University of Missouri, Spring 2020
 Developed: April 13, 2020
-Tested:  April 25, 2020; Passed with no errors.*/
+Tested:  April 27, 2020; Passed with no errors.*/
 
 .active a:link { 
     background-color: beige;} /*this class should be added to one specific <li> on each page.. the <li> that represents the file you are coding.. */
@@ -152,3 +152,4 @@ nav ul, nav:active ul {
 nav:hover ul {
         display: block;}
 }
+ 
