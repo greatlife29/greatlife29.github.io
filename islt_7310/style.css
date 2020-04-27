@@ -62,21 +62,7 @@ blockquote {
   padding-left: 25px;
   margin-left: 28px;
   margin-right: 1226px;}
-
-.iframe-container }
-    position: relative;
-    width: 100%;
-    padding-top: 65%;
-    padding-bottom: 56.25%;
-    height: 0;}
-
-.iframe-container iframe}
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100;}
-
+ 
 h1 {
     text-align: center;
     font-family: arial;
@@ -165,6 +151,20 @@ footer {
     font-weight: 100;
     text-align: left;
     color: black;}
+
+.iframe-container }
+    position: relative;
+    width: 100%;
+    padding-top: 65%;
+    padding-bottom: 56.25%;
+    height: 0;}
+
+.iframe-container iframe}
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100;}
  
 @media screen and (max-width: 640px) {    
     
