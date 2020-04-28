@@ -27,13 +27,13 @@ header {
     position: relative;
     height: 67px; 
     display: block;
-    background-color: lightgray;
+    background-color: orange;
     width: 100%;}
 
 nav ul li a {
     display: block;
     padding: 11px;
-    background-color: lightgrey;}
+    background-color: orange;}
 
 p + p {
     text-indent: 1.5em;}
@@ -56,17 +56,17 @@ a:visited {
     color: black;}
 
 a:hover, a:focus { 
-    color: yellow;}
+    color: white;}
 
 a:active { 
-    color: black;}
+    color: white;}
 
 blockquote {
     font-size: 16pt; color: red;}
 
 .boxed {
   border: solid blue;
-  background-color: lightblue;
+  background-color: blue;
   padding-left: 25px;
   margin-left: 28px;
   margin-right: 1226px;}
