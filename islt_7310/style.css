@@ -2,10 +2,18 @@
 Author:  Dennis Reece
 School/Term:  University of Missouri, Spring 2020
 Developed: April 7, 2020
-Tested:  April 25, 2020; Passed with no errors.*/
+Tested:  April 28, 2020; Passed with no errors.*/
+
+body,
+
+html {
+    min-height: 100%;
+}
 
 body {  
-    background-color: linen;
+    background-image: url(images/Background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
     font-family: arial;} 
@@ -19,13 +27,13 @@ header {
     position: relative;
     height: 67px; 
     display: block;
-    background-color: cadetblue;
+    background-color: lightgray;
     width: 100%;}
 
 nav ul li a {
     display: block;
     padding: 11px;
-    background-color: cadetblue;}
+    background-color: lightgrey;}
 
 p + p {
     text-indent: 1.5em;}
@@ -143,14 +151,38 @@ h6 {
     color: green;}
 
 footer {
-    border-top: 1px solid black;
+    border-top: 1px solid black;    
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 12pt;
     font-style: italic;
     font-weight: 100;
-    text-align: left;
+    text-align: center;
     color: black;}
+
+nav {
+    font-size: 12px;
+    text-align: center;
+}
+
+footer {
+    background-color: orange;
+    height: 95px;
+}
+
+footer li {
+    border-right: 1px solid #373535;
+}
+
+footer li:last-child {
+    border-right: none;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+    
+}
 
 @media screen and (max-width: 640px) {    
     
