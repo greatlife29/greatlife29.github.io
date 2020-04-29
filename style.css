@@ -2,43 +2,87 @@
 Author:  Dennis Reece
 School/Term:  University of Missouri, Spring 2020
 Developed: April 7, 2020
-Tested:  April 25, 2020; Passed with no errors.*/
+Tested:  April 28, 2020; Passed with no errors.*/
+
+@font-face {
+    font-family: "Natalisa Regular Demo", serif;
+    src: url("font.otf");
+}
+
+/* Print Stylesheet */
+
+@media print {
+ * {
+        background: transparent !Important;
+        color: black !Important;
+        box-shadow: none !Important;
+        text-shadow: none !Important;}
+ 
+header, nav, logos, icons {
+        display: none;
+    }
+    
+footer a img {
+        display: none;
+    }    
+
+main {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: none;
+    text-align: center;
+}
+
+a[href]::after {
+    content: "["attr(href)"]";
+    color: blue;
+}
+
+@page {
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+    
+@page :first {
+    margin-top: 2cm;
+}
+
+h2, ul {
+    page-break-after: avoid;
+}
+    
+p ul {
+    font-size: 11pt;
+}
+    
+html {
+    min-height: 100%;}
+}
 
 body {  
-    background-color: linen;
+    background-image: url(images/Background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
-    font-family: arial;} 
-
+    font-family: Natalisa Regular Demo;}
+ 
 left-column {
     width: 700px;
     float: left;
-    background: linen;}
-
-#apps {
-    float: right;} 
-
-#apps p {
-    margin-top: 100%;}
-
-#apps p {
-    display: inline;}
-
-#apps p:hover {
-    background: cadetblue;
-    color: black;}
+    background: lightblue;}
 
 header {  
     position: relative;
     height: 67px; 
     display: block;
-    background-color: cadetblue;
+    background-color: lightblue;
     width: 100%;}
 
 nav ul li a {
     display: block;
     padding: 11px;
-    background-color: cadetblue;}
+    background-color: lightblue;}
 
 p + p {
     text-indent: 1.5em;}
@@ -52,7 +96,7 @@ a:link {
     color: black;}
 
 a:link {
-    font-size: 14px;}
+    font-size: 18px;}
 
 a:link {
     text-align: center;}
@@ -61,40 +105,40 @@ a:visited {
     color: black;}
 
 a:hover, a:focus { 
-    color: yellow;}
+    color: brown;}
 
 a:active { 
     color: black;}
 
 blockquote {
-    font-size: 16pt; color: red;}
+    font-size: 16pt; color: whitesmoke;}
 
 .boxed {
-  border: solid blue;
+  border: solid darkblue;
   background-color: lightblue;
-  padding-left: 25px;
+  padding-left: 18px;
   margin-left: 28px;
   margin-right: 1226px;}
-
+ 
 h1 {
     text-align: center;
-    font-family: arial;
+    font-family: Natalisa Regular Demo;
     text-shadow: 4px 4px;
-    font-size: 28pt;
+    font-size: 42pt;
     font-style: italic;
     font-weight: bold;
     text-shadow: 3px 3px 5px;
-    color: #333399;
+    color: darkred;
     margin-top: 80px;
     padding-right: 10px;}
 
 h2 {
-    font-family: arial, "Times New Roman";
+    font-family: Natalisa Regular Demo;
     font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
-    color: green;}
+    color: darkred;}
 
 img {
     float: right;
@@ -102,15 +146,15 @@ img {
     margin: 10px;}
 
 h3 {
-    font-family: arial, "Times New Roman";
+    font-family: Natalisa Regular Demo;
     font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
-    color: green;}
+    color: darkred;}
 
 p {
-    font-family: arial, "Times New Roman";
+    font-family: Natalisa Regular Demo;
     line-height: 1.5em;
     font-size: 16pt;
     font-style: normal;
@@ -123,23 +167,23 @@ ul {
     list-style-type: square;}
 
 h4 {
-    font-family: arial, "Times New Roman";
+    font-family: Natalisa Regular Demo;
     font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
-    color: green;}
+    color: darkred;}
 
 h5 {
-    font-family: arial, "Times New Roman";
+    font-family: Natalisa Regular Demo;
     font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
-    color: green;}
+    color: darkred;}
 
 li {
-    font-family: arial, "Times New Roman";
+    font-family: Natalisa Regular Demo;
     font-size: 16pt;
     font-style: normal;
     font-weight: 100;
@@ -147,26 +191,53 @@ li {
     color: black;}
 
 h6 {
-    font-family: arial, "Times New Roman";
+    font-family: Natalisa Regular Demo;
     font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
     padding-top: 120px;
-    color: green;}
+    color: darkred;}
 
 footer {
-    border-top: 1px solid black;
+    border-top: 1px solid black;    
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 12pt;
     font-style: italic;
     font-weight: 100;
-    text-align: left;
+    text-align: center;
     color: black;}
+
+nav {
+    font-size: 12px;
+    text-align: center;
+}
+
+footer {
+    background-color: burlywood;
+    height: 95px;
+}
+
+footer li {
+    border-right: 1px solid #373535;
+}
+
+footer li:last-child {
+    border-right: none;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+    
+}
 
 @media screen and (max-width: 640px) {    
     
     header {
         position: absolute;}
 } 
-    
- 
+    left-margin: 10px;
+
+  
