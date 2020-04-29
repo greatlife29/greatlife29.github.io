@@ -2,10 +2,10 @@
 Author:  Dennis Reece
 School/Term:  University of Missouri, Spring 2020
 Developed: April 7, 2020
-Tested:  April 28, 2020; Passed with no errors.*/
+Tested:  April 29, 2020; Passed with no errors.*/
 
 @font-face {
-    font-family: Natalisa Regular Demo;
+    font-family: "Natalisa Regular Demo", serif;
     src: url("font.otf");
 }
 
@@ -18,7 +18,7 @@ Tested:  April 28, 2020; Passed with no errors.*/
         box-shadow: none !Important;
         text-shadow: none !Important;}
  
-header, nav, logos, icons {
+header, nav, footer, logos, icons {
         display: none;
     }
     
@@ -30,7 +30,7 @@ main {
     margin-top: 0;
     margin-bottom: 0;
     border: none;
-    text-align: center;
+    text-align: left;
 }
 
 a[href]::after {
@@ -39,12 +39,12 @@ a[href]::after {
 }
 
 @page {
-    margin-left: 2cm;
-    margin-right: 2cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
 }
     
-@page :first {
-    margin-top: 2cm;
+@page {
+    margin-top: 0cm;
 }
 
 h2, ul {
@@ -52,7 +52,7 @@ h2, ul {
 }
     
 p ul {
-    font-size: 11pt;
+    font-size: 10pt;
 }
     
 html {
@@ -65,16 +65,16 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
-    font-family: Natalisa Regular Demo;}
+    font-family: "Natalisa Regular Demo";}
  
 left-column {
-    width: 700px;
+    width: 100%;
     float: left;
     background: lightblue;}
 
 header {  
     position: relative;
-    height: 67px; 
+    height: 55px; 
     display: block;
     background-color: lightblue;
     width: 100%;}
@@ -96,7 +96,7 @@ a:link {
     color: black;}
 
 a:link {
-    font-size: 18px;}
+    font-size: 16px;}
 
 a:link {
     text-align: center;}
@@ -111,7 +111,7 @@ a:active {
     color: black;}
 
 blockquote {
-    font-size: 16pt; color: whitesmoke;}
+    font-size: 11pt; color: whitesmoke;}
 
 .boxed {
   border: solid darkblue;
@@ -122,9 +122,9 @@ blockquote {
  
 h1 {
     text-align: center;
-    font-family: Natalisa Regular Demo;
+    font-family: "Natalisa Regular Demo",sarif;
     text-shadow: 4px 4px;
-    font-size: 42pt;
+    font-size: 20pt;
     font-style: italic;
     font-weight: bold;
     text-shadow: 3px 3px 5px;
@@ -133,8 +133,8 @@ h1 {
     padding-right: 10px;}
 
 h2 {
-    font-family: Natalisa Regular Demo;
-    font-size: 20pt;
+    font-family: "Natalisa Regular Demo",sarif;
+    font-size: 16pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -146,17 +146,17 @@ img {
     margin: 10px;}
 
 h3 {
-    font-family: Natalisa Regular Demo;
-    font-size: 20pt;
+    font-family: "Natalisa Regular Demo",sarif;
+    font-size: 16pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
     color: darkred;}
 
 p {
-    font-family: Natalisa Regular Demo;
+    font-family: "Natalisa Regular Demo",sarif;
     line-height: 1.5em;
-    font-size: 16pt;
+    font-size: 11pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -167,32 +167,32 @@ ul {
     list-style-type: square;}
 
 h4 {
-    font-family: Natalisa Regular Demo;
-    font-size: 20pt;
+    font-family: "Natalisa Regular Demo",sarif;
+    font-size: 16pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
     color: darkred;}
 
 h5 {
-    font-family: Natalisa Regular Demo;
-    font-size: 20pt;
+    font-family: "Natalisa Regular Demo",sarif;
+    font-size: 16pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
     color: darkred;}
 
 li {
-    font-family: Natalisa Regular Demo;
-    font-size: 16pt;
+    font-family: "Natalisa Regular Demo",sarif;
+    font-size: 11pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
     color: black;}
 
 h6 {
-    font-family: Natalisa Regular Demo;
-    font-size: 20pt;
+    font-family: "Natalisa Regular Demo",sarif;
+    font-size: 16pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -203,20 +203,20 @@ footer {
     border-top: 1px solid black;    
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 12pt;
+    font-size: 11pt;
     font-style: italic;
     font-weight: 100;
     text-align: center;
     color: black;}
 
 nav {
-    font-size: 12px;
+    font-size: 11pt;
     text-align: center;
 }
 
 footer {
     background-color: burlywood;
-    height: 95px;
+    height: 80px;
 }
 
 footer li {
@@ -237,6 +237,6 @@ footer img {
     
     header {
         position: absolute;}
-} 
-    
+}
+
   
