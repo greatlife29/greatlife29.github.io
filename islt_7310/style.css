@@ -2,7 +2,7 @@
 Author:  Dennis Reece
 School/Term:  University of Missouri, Spring 2020
 Developed: April 7, 2020
-Tested:  April 29, 2020; Passed with no errors.*/
+Tested:  April 30, 2020; Passed with no errors.*/
 
 @font-face {
     font-family: "Natalisa Regular Demo", serif;
@@ -18,7 +18,7 @@ Tested:  April 29, 2020; Passed with no errors.*/
         box-shadow: none !Important;
         text-shadow: none !Important;}
  
-header, nav, footer, logos, icons {
+header, nav, footer, phonenumber, logos, icons, icon8 {
         display: none;
     }
     
@@ -215,10 +215,13 @@ nav {
 }
 
 footer {
-    background-color: burlywood;
-    height: 80px;
-}
-
+    background-image: url(images/Footer%20background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: "Natalisa Regular Demo";}
+     
 footer li {
     border-right: 1px solid #373535;
 }
@@ -229,9 +232,8 @@ footer li:last-child {
 
 footer img {
     display: block;
-    margin: 0 auto;
-    
-}
+    margin: 0;
+    }
 
 @media screen and (max-width: 640px) {    
     
