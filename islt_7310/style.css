@@ -2,7 +2,7 @@
 Author:  Dennis Reece
 School/Term:  University of Missouri, Spring 2020
 Developed: April 7, 2020
-Tested:  April 30, 2020; Passed with no errors.*/
+Tested:  May 2, 2020; Passed with no errors.*/
 
 @font-face {
     font-family: "Natalisa Regular Demo", serif;
@@ -60,7 +60,7 @@ html {
 }
 
 body {  
-    background-image: url(images/Background2.jpg);
+    background-image: url(images/background%203.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -111,23 +111,59 @@ a:active {
     color: black;}
 
 blockquote {
-    font-size: 11pt; color: whitesmoke;}
+    font-size: 11pt; color: black;}
 
 .boxed {
   border: solid darkblue;
   background-color: lightblue;
   padding-left: 18px;
-  margin-left: 28px;
-  margin-right: 1226px;}
- 
+  margin-left: 35px;
+  margin-right: 1225px;}
+
+.boxed2a {
+    border: solid darkred;
+    background-color: lightblue;
+    padding-left: 50px;
+    margin-left: 5px;
+    margin-right: 1060px;
+    
+}
+
+.boxed2 {
+    border: solid darkred;
+    background-color: lightblue;
+    padding-left: 50px;
+    margin-left: 5px;
+    margin-right: 1000px;
+    
+}
+
+#section1 {
+    padding-top: 25px;
+    padding-bottom: 100px;
+    box-shadow: 5px 10px darkred;
+}
+
+#section2 {
+    border: 1px solid darkred;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: 5px 10px darkred;
+}
+
+#section3 {
+    border: 1px solid darkred;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: 5px 10px darkred;
+}
+
 h1 {
     text-align: center;
     font-family: "Natalisa Regular Demo",sarif;
-    text-shadow: 4px 4px;
     font-size: 20pt;
     font-style: italic;
     font-weight: bold;
-    text-shadow: 3px 3px 5px;
     color: darkred;
     margin-top: 80px;
     padding-right: 10px;}
@@ -151,6 +187,7 @@ h3 {
     font-style: normal;
     font-weight: 100;
     text-align: left;
+    padding-top: 25px;
     color: darkred;}
 
 p {
@@ -207,15 +244,18 @@ footer {
     font-style: italic;
     font-weight: 100;
     text-align: center;
-    color: black;}
+    color: white;}
 
+footer a {
+    color: white;}
+ 
 nav {
     font-size: 11pt;
     text-align: center;
 }
-
+ 
 footer {
-    background-image: url(images/Footer%20background4.jpg);
+    background-image: url(images/footer%20background%205.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -234,6 +274,28 @@ footer img {
     display: block;
     margin: 0;
     }
+
+.pic {
+    width: 40px;
+    height: 40px;
+}
+
+.picbig {
+    position: absolute;
+    width: 0px;
+    z-index: 25;
+    margin-left: 1220px;
+     
+    
+}
+
+img {
+    filter: grayscale(0.5);
+}
+
+.pic:hover + .picbig {
+    width: 65px;
+}
 
 @media screen and (max-width: 640px) {    
     
