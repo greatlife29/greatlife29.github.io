@@ -18,7 +18,7 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: April 7, 2020
 
-Tested:  May 2, 2020; Passed on Firefox and Chrome browsers.
+Tested:  May 6, 2020; Passed on Firefox and Chrome browsers.
 
 ******************************************************************************
         -->  
@@ -53,11 +53,42 @@ Tested:  May 2, 2020; Passed on Firefox and Chrome browsers.
     
 </nav>
     
-    </header>
+ </header>
     
-    <h1>Contact</h1>
+     <h1>Contact</h1>
     
-<main>  
+    <h4>Contact Form</h4>
+    
+    <form action="mailto:darvgk@mail.missouri.edu?subject=Professional%20Website%20Contact" method="post" enctype="text/plain">
+         
+    <div>
+    <label for="date">Date</label>
+    <input type="date" name="date" autofocus id="date" min="2020-05-05" required>
+    </div> 
+    <div>
+    <label for="name-field">First Name</label>
+    <input name="first name" id="name-field" type="text" required/>
+    </div>    
+    <div>    
+    <label for="name">Last Name</label>
+    <input name="last name" id="name" type="text" required/>
+    </div>
+    <div>    
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Email" required>
+    </div>    
+    <div>    
+    <label for="message">Message</label> 
+    <input type="text" name="message" id="message" placeholder="Message" required>
+    </div>
+    <div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>         
+    </div>
+         
+</form>        
+    
+<main>      
     
     <img src="../islt_7310/images/Twitter.png" alt ="Picture of Twitter icon" title="Twitter" width="48">
         
@@ -125,9 +156,8 @@ Proprietary information of Dennis Reece. Do not distribute or reproduce without 
         
             <a href="https://icons8.com">Icon pack by Icons</a>
         
-    </nav>    
-</footer>
+    </nav>
     
-</body>
+    </footer>
     
-</html>
+    </html>
