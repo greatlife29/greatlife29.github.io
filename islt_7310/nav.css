@@ -2,7 +2,7 @@
 Author:  Dennis Reece
 School/Term:  University of Missouri, Spring 2020
 Developed: April 13, 2020
-Tested:  May 2, 2020; Passed with no errors.*/
+Tested:  May 7, 2020; Passed with no errors.*/
 
 .active a:link { 
     background-color: beige;} /*this class should be added to one specific <li> on each page.. the <li> that represents the file you are coding.. */
@@ -89,6 +89,31 @@ nav .lastMobile {
     
 nav ul li ul {
         display:none;} -- this should all be under your media query as it is re-organizing your navigation to be vertical instead of horizonta*/
+
+@media only screen and (max-width:1250px) {
+    
+    tr{
+        font-size: 14px;
+    }
+
+    table#table1 {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    
+    tr{
+        font-size: 11px;
+    }
+    table#table1 {
+        width: 90%;
+        margin-left: 5%;
+        Margin-right: 5%;
+    }
+}
 
 @media screen and (max-width: 640px) {    
     
