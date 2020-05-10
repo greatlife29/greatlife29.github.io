@@ -52,7 +52,7 @@ h2, ul {
 }
     
 p ul {
-    font-size: 10pt;
+    font-size: 14pt;
 }
     
 html {
@@ -96,7 +96,7 @@ a:link {
     color: black;}
 
 a:link {
-    font-size: 16px;}
+    font-size: 14pt;}
 
 a:link {
     text-align: center;}
@@ -111,7 +111,7 @@ a:active {
     color: black;}
 
 blockquote {
-    font-size: 11pt; color: black;}
+    font-size: 14pt; color: black;}
 
 .boxed {
   border: solid darkblue;
@@ -119,6 +119,11 @@ blockquote {
   padding-left: 18px;
   margin-left: 18px;
   margin-right: 1225px;}
+
+.iframe-container {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
 
 .boxed2a {
     border: solid darkred;
@@ -172,7 +177,7 @@ label {
 
 input[type="date"] {
     display: block;
-    font-size: 12px;
+    font-size: 14pt;
     margin-right: 25px;
     width: 20%;
     border: 2px solid steelblue;
@@ -180,7 +185,7 @@ input[type="date"] {
 
 input[type="text"] {
     display: block;
-    font-size: 12px;
+    font-size: 14pt;
     margin-right: 25px;
     width: 20%;
     border: 2px solid steelblue;
@@ -188,7 +193,7 @@ input[type="text"] {
 
 input[type="email"] {
     display: block;
-    font-size: 12px;
+    font-size: 14pt;
     margin-right: 25px;
     width: 20%;
     border: 2px solid steelblue;
@@ -196,7 +201,7 @@ input[type="email"] {
 
 message {
     display: block;
-    font-size: 12px;
+    font-size: 14pt;
     margin-right: 25px;
     width: 20%;
     border: 2px solid steelblue;
@@ -214,7 +219,7 @@ h1 {
 
 h2 {
     font-family: "Natalisa Regular Demo",sarif;
-    font-size: 16pt;
+    font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -227,7 +232,7 @@ img {
 
 h3 {
     font-family: "Natalisa Regular Demo",sarif;
-    font-size: 16pt;
+    font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -237,7 +242,7 @@ h3 {
 p {
     font-family: "Natalisa Regular Demo",sarif;
     line-height: 1.5em;
-    font-size: 11pt;
+    font-size: 14pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -249,7 +254,7 @@ ul {
 
 h4 {
     font-family: "Natalisa Regular Demo",sarif;
-    font-size: 16pt;
+    font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -257,7 +262,7 @@ h4 {
 
 h5 {
     font-family: "Natalisa Regular Demo",sarif;
-    font-size: 16pt;
+    font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -265,7 +270,7 @@ h5 {
 
 li {
     font-family: "Natalisa Regular Demo",sarif;
-    font-size: 11pt;
+    font-size: 14pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -273,7 +278,7 @@ li {
 
 h6 {
     font-family: "Natalisa Regular Demo",sarif;
-    font-size: 16pt;
+    font-size: 20pt;
     font-style: normal;
     font-weight: 100;
     text-align: left;
@@ -284,17 +289,17 @@ footer {
     border-top: 1px solid black;    
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 11pt;
+    font-size: 14pt;
     font-style: italic;
     font-weight: 100;
     text-align: center;
     color: white;}
 
 footer a {
-    color: white;}
+    color: black;}
  
 nav {
-    font-size: 11pt;
+    font-size: 14pt;
     text-align: center;
 }
 
@@ -349,7 +354,7 @@ table {
 table, th, td {
   border: 1px solid darkred;
   border-collapse: collapse;
-  font-size: 14px;    
+  font-size: 14pt;    
 }
 
 th, td {
@@ -358,14 +363,14 @@ th, td {
 
 caption {
   text-align: center;
-  font-size: 18px;
+  font-size: 14pt;
    color: darkred;    
        
 }
 
 th {
   text-align: center;
-  font-size: 14px;
+  font-size: 14pt;
     
 }
 
@@ -375,17 +380,17 @@ table {
 
 tr:nth-child(even) {
 	background: grey;
-    font-size: 14px;
+    font-size: 14pt;
 }
 
 tr:nth-child(odd) {
 	background: lightgrey;
-    font-size: 14px;
+    font-size: 14pt;
 }
 @media only screen and (max-width:1250px) {
     
     tr{
-        font-size: 14px;
+        font-size: 12pt;
     }
 
     table#table1 {
@@ -398,7 +403,7 @@ tr:nth-child(odd) {
 @media only screen and (max-width: 800px) {
     
     tr{
-        font-size: 11px;
+        font-size: 12pt;
     }
     table#table1 {
         width: 90%;
