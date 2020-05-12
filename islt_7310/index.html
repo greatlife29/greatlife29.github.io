@@ -52,11 +52,33 @@ Tested:  May 12, 2020; Passed on Firefox and Chrome browsers.
         <li><a href="contact.html">Contact</a></li>            
  </ul>
     
-</nav>
+</nav> 
     
-</header> 
+</header>
+    
+    <div class="script">
+     <SCRIPT LANGUAGE="JavaScript">
+<!--
 
-         <p>
+//Bread crumb script - Kevin Lynn Brown
+//Duplicate directory names bug fix by JavaScriptKit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+var path = "";
+var href = document.location.href;
+var s = href.split("/");
+for (var i=2;i<(s.length-1);i++) {
+path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+}
+i=s.length-1;
+path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+var url = window.location.protocol + "//" + path;
+document.writeln(url);
+//-->
+</script>
+</div>        
+
+       <p>
         <img src ="../islt_7310/images/Dennis.png"
                  alt = "Picture of Dennis Reece" width=200
                  height=200>
@@ -119,10 +141,12 @@ Proprietary information of Dennis Reece. Do not distribute or reproduce without 
         
     </nav> 
     
-    <p> This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p>
+ <p> This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p>
     
   <a href='https://www.symptoma.es/'>https://www.Symptoma.es</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=6f09aca0b5b57a33a7de6b2a0ad6f4da74f9d304'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/684706/t/2"></script></footer>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/684706/t/2"></script>
+    
+</footer>
     
 </body>
     
