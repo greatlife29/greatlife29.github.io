@@ -2,7 +2,7 @@
 Author:  Dennis Reece
 School/Term:  University of Missouri, Spring 2020
 Developed: April 7, 2020
-Tested:  May 7, 2020; Passed with no errors.*/
+Tested:  May 12, 2020; Passed with no errors.*/
 
 @font-face {
     font-family: "Natalisa Regular Demo", serif;
@@ -125,22 +125,22 @@ blockquote {
     padding-bottom: 18px;
 }
 
-.boxed2a {
-    border: solid darkred;
-    background-color: lightblue;
-    padding-left: 50px;
-    margin-left: 5px;
-    margin-right: 1060px;
-    
-}
-
 .boxed2 {
     border: solid darkred;
     background-color: lightblue;
     padding-left: 50px;
     margin-left: 5px;
     margin-right: 1000px;
-    
+    text-decoration: none;
+}
+
+.resume {
+    border: solid darkred;
+    background-color: lightblue;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-right: 1000px;
+    text-decoration: none;
 }
 
 #section1 {
@@ -163,9 +163,20 @@ blockquote {
     box-shadow: 5px 10px darkred;
 }
 
+.form {
+    position: absolute;
+    font-size: 11pt;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-right: 1000px;
+    }
+
 form {
-    align-items: center;
-}
+    font-size: 11pt;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-right: 1000px;
+    }
 
 input {
     padding: 12px;
@@ -179,32 +190,32 @@ input[type="date"] {
     display: block;
     font-size: 14pt;
     margin-right: 25px;
-    width: 20%;
-    border: 2px solid steelblue;
+    width: 30%;
+    border: 4px solid steelblue;
 }
 
 input[type="text"] {
     display: block;
     font-size: 14pt;
     margin-right: 25px;
-    width: 20%;
-    border: 2px solid steelblue;
+    width: 30%;
+    border: 4px solid steelblue;
 }
 
 input[type="email"] {
     display: block;
     font-size: 14pt;
     margin-right: 25px;
-    width: 20%;
-    border: 2px solid steelblue;
+    width: 30%;
+    border: 4px solid steelblue;
 }
 
 message {
     display: block;
     font-size: 14pt;
     margin-right: 25px;
-    width: 20%;
-    border: 2px solid steelblue;
+    width: 30%;
+    border: 4px solid steelblue;
 }
 
 h1 {
@@ -324,34 +335,36 @@ footer img {
     margin: 0;
     }
 
-.pic {
+.icon {
+    float: none;
+    clear: both;
     width: 40px;
     height: 40px;
+    position: absolute;
 }
 
-.picbig {
+.iconbig {
     position: absolute;
     width: 0px;
     z-index: 25;
-    margin-left: 1215px;
+    margin-left: -1px;
      
-    
 }
 
 img {
     filter: grayscale(0.5);
 }
 
-.pic:hover + .picbig {
-    width: 65px;
+.icon:hover + .iconbig {
+    width: 60px;
 }
 
-table {
+table#table1 {
 	Width: 200px;
     margin-left: 2px;
 }
 
-table, th, td {
+table#table1, th, td {
   border: 1px solid darkred;
   border-collapse: collapse;
   font-size: 14pt;    
@@ -374,8 +387,9 @@ th {
     
 }
 
-table {
+table#table1 {
   border-spacing: 5px;
+    
 }
 
 tr:nth-child(even) {
@@ -390,32 +404,57 @@ tr:nth-child(odd) {
 @media only screen and (max-width:1250px) {
     
     tr{
-        font-size: 12pt;
+        font-size: 14pt;
     }
 
     table#table1 {
-        width: 50%;
+        width: 100%;
         margin-left: 25%;
         margin-right: 25%;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width:500px) {
     
-    tr{
-        font-size: 12pt;
-    }
-    table#table1 {
-        width: 90%;
-        margin-left: 5%;
-        Margin-right: 5%;
-    }
-}
-    
-@media screen and (max-width: 640px) {    
+    nav {
+        z-index: 25;
+    } 
     
     header {
         position: absolute;}
 }
+    
+    tr {
+        font-size: 11pt;
+    }
 
-  
+    table#table1 {
+        width: 25%;
+        font-size: 11pt;
+        }
+    
+    .form {
+        width: 100%;
+        font-size: 11pt;
+       
+    }
+
+    .boxed2 {
+        width: 40%;
+        font-size: 11pt;
+        text-decoration: none;
+        }
+
+    .resume {
+        width: 25%;
+        margin-left: 80px;
+        font-size: 11pt;
+        text-align: center;         
+        }
+
+    form {
+        font-size: 11pt;
+        padding-left: 10px;
+        margin-left: 5px;
+        margin-right: 500px;
+        }
